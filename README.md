@@ -18,5 +18,6 @@ Este proyecto es una biblioteca de componentes UI reutilizables desarrollada con
 El proyecto está publicado en GitHub Pages.
 
 ## 👨‍💻 Autor
-Dariana Dumes Sornoza
+Dariana Dumes Sornoza-
+
 Proyecto académico - Desarrollo de Sistemas Informáticos
