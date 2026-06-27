@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi UI Kit</title>
+    <title>UI Kit - Design System</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,9 +12,9 @@
 
     <section>
         <h2>Botones</h2>
-        <button class="btn1">Guardar</button>
-        <button class="btn2">Editar</button>
-        <button class="btn3">Eliminar</button>
+        <button class="btn primary">Guardar</button>
+        <button class="btn secondary">Editar</button>
+        <button class="btn danger">Eliminar</button>
     </section>
 
     <section>
@@ -29,7 +29,7 @@
         <textarea placeholder="Escriba un mensaje"></textarea>
         <br><br>
 
-        <button class="btn1">Enviar</button>
+        <button class="btn primary">Enviar</button>
     </section>
 
     <section>
@@ -38,19 +38,24 @@
         <div class="card">
             <h3>Incidente #001</h3>
             <p>Error en el sistema principal.</p>
+
+            <br>
+            <span class="badge high">Alta</span>
+            <span class="badge medium">Media</span>
+            <span class="badge low">Baja</span>
         </div>
     </section>
 
     <section>
         <h2>Alertas</h2>
 
-        <div class="success">Sistema funcionando correctamente.</div>
+        <div class="alert success">Sistema funcionando correctamente.</div>
         <br>
 
-        <div class="warning">Advertencia de mantenimiento.</div>
+        <div class="alert warning">Advertencia de mantenimiento.</div>
         <br>
 
-        <div class="danger">Error crítico detectado.</div>
+        <div class="alert danger">Error crítico detectado.</div>
     </section>
 
 </body>
